@@ -15,5 +15,4 @@ def CustomChatGPT(user_input):
     messages.append({"role": "assistant", "content": ChatGPT_reply})
     return ChatGPT_reply
 
-iface = gr.Interface(fn=CustomChatGPT, inputs = "text", outputs = "text", title = "bhAI")
-iface.launch()
+iface = gr.Interface(fn=CustomChatGPT, inputs = "text", outputs = "text", title = "bhAI").launch()
