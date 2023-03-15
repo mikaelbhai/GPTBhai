@@ -1,7 +1,7 @@
 import openai
 import gradio as gr
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 messages = [{"role": "system", "content": "you are a brother to all"}]
 
