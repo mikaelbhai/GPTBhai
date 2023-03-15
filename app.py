@@ -1,4 +1,4 @@
-import openai
+import openaiq
 import gradio as gr
 
 openai.api_key = "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"
